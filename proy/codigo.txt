@@ -1,0 +1,8 @@
+              <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-phone"></i></span>
+                    </div>
+                      <input name="UIUsuario" type="text" id="timesheetinput2" class="form-control" placeholder="Usuario" >
+                  </div>
+              </div>
