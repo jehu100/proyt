@@ -178,7 +178,7 @@ class ConductorControladores{
         foreach ($ListaConductor as $key => $Conductor2)
         {
              $i++;
-             $Estado = ($Personal['CAasignado'] == '0') ? 'Asignado' : 'No Asigando';
+             $Estado = ($Conductor2['CAasignado'] == '0') ? 'Asignado' : 'No Asigando';
             echo '<tr>
                 <td>'.$i.'</td>
                 <td>'.$Conductor2["ci"].'</td> 

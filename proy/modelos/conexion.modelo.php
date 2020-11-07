@@ -3,7 +3,7 @@
     {
         public function Conectar()
         {
-            $link = new PDO("mysql:host=localhost;dbname=bdmit", "root", "12345678");
+            $link = new PDO("mysql:host=localhost;dbname=bdmit", "root", "firebase");
             return $link;
         }
     }
